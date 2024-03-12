@@ -34,9 +34,18 @@ Numerical simulations of the model were done in Julia using a forward Euler meth
 
 ### Measuring time intervals
 
+The shape of the self-stabilized bumps reflects the fact that a longer accumulation time results in a higher bump amplitude:  
+![image](https://github.com/w-wojtak/NF-model-for-learning-time-intervals/assets/19287772/8418bf05-172a-43a5-a562-d4b06e996d47)
+
+
 ### Reproducing time intervals
 
+Reproducing time intervals can be done by varying either the inputs or the initial conditions:  
+![image](https://github.com/w-wojtak/NF-model-for-learning-time-intervals/assets/19287772/0fa73bc6-2714-4584-8841-151a89796ecb)
 
+
+
+Values (in milliseconds) of sample and produced intervals:  
 
 | Sample interval                     | 500 | 550 | 600 | 650 | 700 | 750 | 800 | 850 | 900 | 950 | 1000 |
 |-------------------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|------|
